@@ -1,5 +1,6 @@
 @Component
 struct Header {
+  @Link net_text: string;
 
   build() {
     Column() { // 创建一个列容器
@@ -9,7 +10,7 @@ struct Header {
           .width(32) // 设置图片的宽度为 32
           .height(32) // 设置图片的高度为 32
         // .margin({ left: 26 }) // 设置图片的外边距
-        Text('设备名称') // 创建一个文本组件，内容为 'CodeGenie'
+        Text('设备名称:' + this.net_text) // 创建一个文本组件，内容为 'CodeGenie'
           .fontColor('#182431') // 设置文本颜色
           .fontSize(30) // 设置字体大小
           .fontWeight(700) // 设置字体粗细

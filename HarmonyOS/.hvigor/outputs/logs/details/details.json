@@ -15,20 +15,17 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "PreCheckSyscap": 164083,
-        "GeneratePkgContextInfo": 219792,
-        "PreviewProcessResource": 1203958,
-        "PreviewCompileResource": 119061334,
-        "PreviewHookCompileResource": 190208,
-        "CopyPreviewProfile": 1991000,
-        "ReplacePreviewerPage": 186208,
-        "buildPreviewerResource": 151125,
-        "PreviewUpdateAssets": 1378125,
-        "PreviewArkTS": 7796155209,
-        "PreviewBuild": 192333
+        "PreCheckSyscap": 153042,
+        "GeneratePkgContextInfo": 216583,
+        "PreviewProcessResource": 998166,
+        "PreviewHookCompileResource": 150083,
+        "ReplacePreviewerPage": 175292,
+        "buildPreviewerResource": 124667,
+        "PreviewArkTS": 7648903625,
+        "PreviewBuild": 181333
       }
     },
-    "TOTAL_TIME": 8113681833,
-    "BUILD_ID": "202412092127362620"
+    "TOTAL_TIME": 7842381125,
+    "BUILD_ID": "202412121643551420"
   }
 }

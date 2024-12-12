@@ -1,16 +1,36 @@
 import { MainContent } from '../entity/MainContent';
-import { curves } from '@kit.ArkUI';
 import Header from './Header';
 import Divid from './Divid';
 import FileIndex from './FileIndex';
 import Footer from './Footer';
 import HomeIndex from './HomeIndex';
 import DeviceIndex from './DeviceIndex';
+import HttpTool from '../network/http/http';
 
+interface Person {
+  name: string;
+  age: number;
+  city: string;
+}
+let data = {"name": "Johsn", "age": 30, "city": "ChongQing"} as Person;
+
+async function fetchData() {
+  try {
+    let rs: Promise<string> = HttpTool.sendPOST(JSON.stringify(data));
+    let result: string = await rs;
+    console.info('Result 2: ' + result);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+fetchData();
 
 @Entry // 标记此组件为应用的入口组件
 @Component // 标记此为一个组件
 struct Index {
+  @State net_text: string = 'none';
+
   @State activePage: string = 'fileIndex';
 
   @State activeFileType: string = '所有'; // 初始状态为 'all'
@@ -38,7 +58,9 @@ struct Index {
 
     Column() { // 创建一个列容器
 
-      Header()
+      Header({
+        net_text: this.net_text
+      })
 
       Divid()
 
