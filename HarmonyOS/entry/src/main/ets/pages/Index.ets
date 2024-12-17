@@ -24,7 +24,19 @@ async function fetchData() {
   }
 }
 
+async function fetchData2() {
+  try {
+    let rs: Promise<string> = HttpTool.sendGET("test111");
+    let result: string = await rs;
+    console.info('Result 2: ' + result);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
 fetchData();
+fetchData2();
+HttpTool.listenPort()
 
 @Entry // 标记此组件为应用的入口组件
 @Component // 标记此为一个组件
