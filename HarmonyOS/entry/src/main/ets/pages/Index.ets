@@ -5,38 +5,7 @@ import FileIndex from './FileIndex';
 import Footer from './Footer';
 import HomeIndex from './HomeIndex';
 import DeviceIndex from './DeviceIndex';
-import HttpTool from '../network/http/http';
 
-interface Person {
-  name: string;
-  age: number;
-  city: string;
-}
-let data = {"name": "Johsn", "age": 30, "city": "ChongQing"} as Person;
-
-async function fetchData() {
-  try {
-    let rs: Promise<string> = HttpTool.sendPOST(JSON.stringify(data));
-    let result: string = await rs;
-    console.info('Result 2: ' + result);
-  } catch (error) {
-    console.error('Error:', error);
-  }
-}
-
-async function fetchData2() {
-  try {
-    let rs: Promise<string> = HttpTool.sendGET("test111");
-    let result: string = await rs;
-    console.info('Result 2: ' + result);
-  } catch (error) {
-    console.error('Error:', error);
-  }
-}
-
-fetchData();
-fetchData2();
-HttpTool.listenPort()
 
 @Entry // 标记此组件为应用的入口组件
 @Component // 标记此为一个组件

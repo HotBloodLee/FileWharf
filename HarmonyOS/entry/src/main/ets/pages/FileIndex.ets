@@ -1,6 +1,35 @@
 import { MainContent } from '../entity/MainContent';
 import { curves } from '@kit.ArkUI';
 
+import HttpTool from '../network/http/http';
+
+interface Person {
+  name: string;
+  age: number;
+  city: string;
+}
+let data = {"name": "Johsn", "age": 30, "city": "ChongQing"} as Person;
+
+async function fetchData() {
+  try {
+    let rs: Promise<string> = HttpTool.sendPOST(JSON.stringify(data));
+    let result: string = await rs;
+    console.info('Result 2: ' + result);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+async function fetchData2() {
+  try {
+    let rs: Promise<string> = HttpTool.sendGET("test111");
+    let result: string = await rs;
+    console.info('Result 2: ' + result);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
 @Component
 struct FileIndex {
 
@@ -54,6 +83,9 @@ struct FileIndex {
             })
             .onClick(() => { // 设置点击事件
               this.activeFileType = '所有';
+              fetchData();
+              fetchData2();
+              HttpTool.listenPort()
             })
 
           Text('文本') // 创建一个文本组件，内容为 '文本'

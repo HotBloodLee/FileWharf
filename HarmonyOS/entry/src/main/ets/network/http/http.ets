@@ -59,7 +59,7 @@ class HttpTool {
     // 绑定本地IP地址和端口。
     let ipAddress : socket.NetAddress = {} as socket.NetAddress;
     ipAddress.address = "127.0.0.1";
-    ipAddress.port = 1234;
+    ipAddress.port = 10016;
     tcp.bind(ipAddress, (err: BusinessError) => {
       if (err) {
         console.log('bind fail');
@@ -69,7 +69,7 @@ class HttpTool {
 
       // 连接到指定的IP地址和端口。
       ipAddress.address = "127.0.0.1";
-      ipAddress.port = 5678;
+      ipAddress.port = 10016;
 
       let tcpConnect : socket.TCPConnectOptions = {} as socket.TCPConnectOptions;
       tcpConnect.address = ipAddress;
