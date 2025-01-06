@@ -2,6 +2,12 @@ import { http } from '@kit.NetworkKit';
 import { socket } from '@kit.NetworkKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 
+
+class SocketInfo {
+  message: ArrayBuffer = new ArrayBuffer(1);
+  remoteInfo: socket.SocketRemoteInfo = {} as socket.SocketRemoteInfo;
+}
+
 class HttpTool {
   private httpRequest: http.HttpRequest;
 
@@ -56,6 +62,25 @@ class HttpTool {
 
   listenPort(): void {
     let tcp: socket.TCPSocket = socket.constructTCPSocketInstance();
+
+    tcp.on('message', (value: SocketInfo) => {
+      console.log("on message");
+      let buffer = value.message;
+      let dataView = new DataView(buffer);
+      let str = "";
+      for (let i = 0; i < dataView.byteLength; ++i) {
+        str += String.fromCharCode(dataView.getUint8(i));
+      }
+      console.log("on connect received:" + str);
+    });
+    tcp.on('connect', () => {
+      console.log("on connect");
+    });
+    tcp.on('close', () => {
+      console.log("on close");
+    });
+
+
     // 绑定本地IP地址和端口。
     let ipAddress : socket.NetAddress = {} as socket.NetAddress;
     ipAddress.address = "127.0.0.1";

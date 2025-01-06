@@ -14000,3 +14000,1315 @@ Info: restool resources compile success.
 [2024-12-30T21:54:11.415] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:F:\FileWharf\HarmonyOS\entry\.preview\default\intermediates\loader_out\default\ets cache.
 [2024-12-30T21:54:11.415] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:7 ms .
 [2024-12-30T21:54:11.464] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-01-06T21:15:38.507] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2025-01-06T21:15:38.524] [DEBUG] debug-file - java daemon started at port 45050 pid 60532
+[2025-01-06T21:15:37.659] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-01-06T21:15:37.744] [DEBUG] debug-file - env: daemon=true
+[2025-01-06T21:15:37.662] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-01-06T21:15:38.577] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ '--analyze=normal' ]
+}
+[2025-01-06T21:15:38.602] [DEBUG] debug-file - session manager: set active socket. socketId=LT_IzJlz6g7442LjAAAB
+[2025-01-06T21:15:39.382] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:15:39.400] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-01-06T21:15:39.466] [DEBUG] debug-file - Cache service initialization finished in 66 ms 
+[2025-01-06T21:15:39.478] [DEBUG] debug-file - hvigorfile, resolving F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:15:41.582] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-01-06T21:15:41.583] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-01-06T21:15:41.735] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-01-06T21:15:41.735] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-01-06T21:15:41.735] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-01-06T21:15:41.736] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-01-06T21:15:41.739] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  }
+} in this build.
+[2025-01-06T21:15:41.746] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-01-06T21:15:41.750] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-01-06T21:15:41.756] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-01-06T21:15:41.763] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-01-06T21:15:41.787] [DEBUG] debug-file - Sdk init in 40 ms 
+[2025-01-06T21:15:41.808] [DEBUG] debug-file - Project task initialization takes 20 ms 
+[2025-01-06T21:15:41.808] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-01-06T21:15:41.808] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:15:41.808] [DEBUG] debug-file - hvigorfile, resolve finished F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:15:41.815] [DEBUG] debug-file - hvigorfile, resolving F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:15:41.820] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-01-06T21:15:41.820] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-01-06T21:15:41.832] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-01-06T21:15:41.832] [DEBUG] debug-file - Target 'default' config: {}
+[2025-01-06T21:15:41.833] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-01-06T21:15:41.833] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+}
+[2025-01-06T21:15:41.833] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+}
+[2025-01-06T21:15:41.833] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-01-06T21:15:41.833] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-01-06T21:15:41.838] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-01-06T21:15:41.838] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-01-06T21:15:41.838] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:15:41.838] [DEBUG] debug-file - hvigorfile, resolve finished F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:15:41.851] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 11 ms 
+[2025-01-06T21:15:41.852] [DEBUG] debug-file - project has submodules:entry
+[2025-01-06T21:15:41.853] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-01-06T21:15:41.903] [DEBUG] debug-file - load to the disk finished
+[2025-01-06T21:15:41.909] [DEBUG] debug-file - Module HarmonyOS Collected Dependency: 
+[2025-01-06T21:15:41.910] [DEBUG] debug-file - Module HarmonyOS's total dependency: 0
+[2025-01-06T21:15:41.913] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-01-06T21:15:41.913] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-01-06T21:15:41.935] [DEBUG] debug-file - Configuration phase cost:2 s 464 ms 
+[2025-01-06T21:15:41.938] [DEBUG] debug-file - Configuration task cost before running: 2 s 551 ms 
+[2025-01-06T21:15:41.938] [DEBUG] debug-file - Executing task :entry:init
+[2025-01-06T21:15:41.938] [DEBUG] debug-file - entry : init cost memory 0.14566802978515625
+[2025-01-06T21:15:41.938] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 552 ms 
+[2025-01-06T21:15:41.939] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-01-06T21:15:41.939] [DEBUG] debug-file - Executing task ::init
+[2025-01-06T21:15:41.939] [DEBUG] debug-file - HarmonyOS : init cost memory 0.012786865234375
+[2025-01-06T21:15:41.939] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 552 ms 
+[2025-01-06T21:15:41.939] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-01-06T21:15:41.960] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-01-06T21:15:41.964] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+} in this build.
+[2025-01-06T21:15:41.973] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-01-06T21:15:41.974] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-01-06T21:15:41.972] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-01-06T21:15:41.972] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-01-06T21:15:41.973] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-01-06T21:15:41.975] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-01-06T21:15:41.977] [DEBUG] debug-file - Cleanup worker 0.
+[2025-01-06T21:15:41.977] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-01-06T21:15:41.977] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-01-06T21:15:41.977] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-01-06T21:15:41.977] [DEBUG] debug-file - Cleanup worker 1.
+[2025-01-06T21:15:41.977] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-01-06T21:15:41.977] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-01-06T21:15:41.977] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-01-06T21:15:41.978] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-01-06T21:15:41.979] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:15:41.979] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:15:41.981] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-01-06T21:15:41.982] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-01-06T21:15:42.609] [DEBUG] debug-file - session manager: set active socket. socketId=ydrlxsl0-7CT3GA0AAAD
+[2025-01-06T21:15:42.614] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:15:42.627] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-01-06T21:15:42.630] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2025-01-06T21:15:42.639] [DEBUG] debug-file - hvigorfile, resolving F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:15:42.643] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-01-06T21:15:42.643] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-01-06T21:15:42.649] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-01-06T21:15:42.649] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-01-06T21:15:42.649] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-01-06T21:15:42.649] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-01-06T21:15:42.650] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  }
+} in this build.
+[2025-01-06T21:15:42.653] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-01-06T21:15:42.661] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-01-06T21:15:42.675] [DEBUG] debug-file - Sdk init in 21 ms 
+[2025-01-06T21:15:42.693] [DEBUG] debug-file - Project task initialization takes 18 ms 
+[2025-01-06T21:15:42.693] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-01-06T21:15:42.693] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:15:42.693] [DEBUG] debug-file - hvigorfile, resolve finished F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:15:42.699] [DEBUG] debug-file - hvigorfile, resolving F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:15:42.702] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-01-06T21:15:42.702] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-01-06T21:15:42.707] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-01-06T21:15:42.707] [DEBUG] debug-file - Target 'default' config: {}
+[2025-01-06T21:15:42.707] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-01-06T21:15:42.708] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+}
+[2025-01-06T21:15:42.708] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+}
+[2025-01-06T21:15:42.708] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-01-06T21:15:42.708] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-01-06T21:15:42.710] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-01-06T21:15:42.710] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-01-06T21:15:42.710] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:15:42.710] [DEBUG] debug-file - hvigorfile, resolve finished F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:15:42.721] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 10 ms 
+[2025-01-06T21:15:42.721] [DEBUG] debug-file - project has submodules:entry
+[2025-01-06T21:15:42.723] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-01-06T21:15:42.729] [DEBUG] debug-file - load to the disk finished
+[2025-01-06T21:15:42.732] [DEBUG] debug-file - Module HarmonyOS Collected Dependency: 
+[2025-01-06T21:15:42.732] [DEBUG] debug-file - Module HarmonyOS's total dependency: 0
+[2025-01-06T21:15:42.733] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-01-06T21:15:42.733] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-01-06T21:15:42.736] [DEBUG] debug-file - Configuration phase cost:103 ms 
+[2025-01-06T21:15:42.737] [DEBUG] debug-file - Configuration task cost before running: 121 ms 
+[2025-01-06T21:15:42.740] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.740] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.744] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-01-06T21:15:42.752] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 6 ms .
+[2025-01-06T21:15:42.752] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.2498321533203125
+[2025-01-06T21:15:42.753] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-01-06T21:15:42.755] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.755] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.756] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-01-06T21:15:42.758] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2025-01-06T21:15:42.758] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1008758544921875
+[2025-01-06T21:15:42.758] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-01-06T21:15:42.760] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.760] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.761] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-01-06T21:15:42.762] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 2 ms 
+[2025-01-06T21:15:42.763] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 2 ms .
+[2025-01-06T21:15:42.764] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.102630615234375
+[2025-01-06T21:15:42.764] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-01-06T21:15:42.766] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.766] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.766] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-01-06T21:15:42.767] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.14826202392578125
+[2025-01-06T21:15:42.767] [DEBUG] debug-file - runTaskFromQueue task cost before running: 150 ms 
+[2025-01-06T21:15:42.767] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-01-06T21:15:42.769] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.769] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.776] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-01-06T21:15:42.776] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:15:42.776] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03746795654296875
+[2025-01-06T21:15:42.776] [DEBUG] debug-file - runTaskFromQueue task cost before running: 160 ms 
+[2025-01-06T21:15:42.776] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-01-06T21:15:42.778] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.778] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.780] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-01-06T21:15:42.781] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-01-06T21:15:42.781] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.05850982666015625
+[2025-01-06T21:15:42.781] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-01-06T21:15:42.783] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.783] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.785] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-01-06T21:15:42.788] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 3 ms .
+[2025-01-06T21:15:42.788] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.14356231689453125
+[2025-01-06T21:15:42.789] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-01-06T21:15:42.791] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.791] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.792] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2025-01-06T21:15:42.796] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2025-01-06T21:15:42.796] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.0493927001953125
+[2025-01-06T21:15:42.797] [DEBUG] debug-file - runTaskFromQueue task cost before running: 180 ms 
+[2025-01-06T21:15:42.798] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 2 ms 
+[2025-01-06T21:15:42.800] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.800] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.804] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-01-06T21:15:42.817] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 7 ms .
+[2025-01-06T21:15:42.817] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.4450531005859375
+[2025-01-06T21:15:42.821] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-01-06T21:15:42.823] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.823] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.824] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2025-01-06T21:15:42.826] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2025-01-06T21:15:42.872] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 45 ms .
+[2025-01-06T21:15:42.872] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory 0.6017608642578125
+[2025-01-06T21:15:42.873] [INFO] debug-file - UP-TO-DATE :entry:default@PreviewCompileResource...  
+[2025-01-06T21:15:42.875] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.875] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.875] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2025-01-06T21:15:42.876] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.014739990234375
+[2025-01-06T21:15:42.876] [DEBUG] debug-file - runTaskFromQueue task cost before running: 259 ms 
+[2025-01-06T21:15:42.876] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2025-01-06T21:15:42.878] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.878] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.879] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2025-01-06T21:15:42.881] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 2 ms .
+[2025-01-06T21:15:42.881] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.10308074951171875
+[2025-01-06T21:15:42.881] [INFO] debug-file - UP-TO-DATE :entry:default@CopyPreviewProfile...  
+[2025-01-06T21:15:42.883] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.883] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.884] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2025-01-06T21:15:42.884] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.0146636962890625
+[2025-01-06T21:15:42.884] [DEBUG] debug-file - runTaskFromQueue task cost before running: 268 ms 
+[2025-01-06T21:15:42.884] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 1 ms 
+[2025-01-06T21:15:42.886] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2025-01-06T21:15:42.886] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.01215362548828125
+[2025-01-06T21:15:42.886] [DEBUG] debug-file - runTaskFromQueue task cost before running: 269 ms 
+[2025-01-06T21:15:42.886] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-01-06T21:15:42.888] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.888] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.889] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-01-06T21:15:42.891] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 2 ms .
+[2025-01-06T21:15:42.891] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.1050262451171875
+[2025-01-06T21:15:42.892] [INFO] debug-file - UP-TO-DATE :entry:default@PreviewUpdateAssets...  
+[2025-01-06T21:15:42.894] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:15:42.894] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:15:42.899] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-01-06T21:15:42.913] [DEBUG] debug-file - entry:default@PreviewArkTS is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\src\main\ets' has been changed.
+[2025-01-06T21:15:42.913] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS pre-execution cost: 10 ms .
+[2025-01-06T21:15:42.924] [DEBUG] debug-file - session manager: binding session. socketId=ydrlxsl0-7CT3GA0AAAD, threadId=1@1.
+[2025-01-06T21:15:42.924] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 0.852996826171875
+[2025-01-06T21:15:45.905] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-01-06T21:15:45.906] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-01-06T21:15:49.501] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-01-06T21:15:49.503] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-01-06T21:15:49.502] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-01-06T21:15:49.505] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-01-06T21:15:50.768] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-01-06T21:15:50.769] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-01-06T21:15:50.769] [DEBUG] debug-file - Ark compile finished.
+[2025-01-06T21:15:50.774] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 7 s 873 ms 
+[2025-01-06T21:15:50.775] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-01-06T21:15:50.775] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.01181793212890625
+[2025-01-06T21:15:50.776] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 159 ms 
+[2025-01-06T21:15:50.776] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-01-06T21:15:50.790] [DEBUG] debug-file - BUILD SUCCESSFUL in 8 s 173 ms 
+[2025-01-06T21:15:50.790] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-01-06T21:15:50.790] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-01-06T21:15:50.790] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-01-06T21:15:50.791] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:F:\FileWharf\HarmonyOS\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-01-06T21:15:50.791] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-01-06T21:15:50.791] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-01-06T21:15:50.791] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-01-06T21:15:50.791] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-01-06T21:15:50.791] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreviewCompileResource is up-to-date.
+[2025-01-06T21:15:50.791] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CopyPreviewProfile is up-to-date.
+[2025-01-06T21:15:50.791] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreviewUpdateAssets is up-to-date.
+[2025-01-06T21:15:50.793] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\FileWharf\HarmonyOS\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-01-06T21:15:50.794] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\FileWharf\HarmonyOS\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-01-06T21:15:50.794] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\FileWharf\HarmonyOS\entry\.preview\default\intermediates\res\default\module.json cache by regenerate.
+[2025-01-06T21:15:50.794] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\FileWharf\HarmonyOS\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-01-06T21:15:50.795] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\FileWharf\HarmonyOS\entry\src\main\ets cache from map.
+[2025-01-06T21:15:50.795] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:F:\FileWharf\HarmonyOS\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-01-06T21:15:50.795] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:F:\FileWharf\HarmonyOS\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-01-06T21:15:50.796] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:5 ms .
+[2025-01-06T21:15:50.819] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-01-06T21:15:50.820] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-01-06T21:34:17.731] [DEBUG] debug-file - session manager: set active socket. socketId=goJ44XrlAa9GJIIkAAAF
+[2025-01-06T21:34:17.738] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:34:17.755] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-01-06T21:34:17.759] [DEBUG] debug-file - Cache service initialization finished in 5 ms 
+[2025-01-06T21:34:17.772] [DEBUG] debug-file - hvigorfile, resolving F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:34:17.779] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-01-06T21:34:17.779] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-01-06T21:34:17.788] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-01-06T21:34:17.789] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-01-06T21:34:17.789] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-01-06T21:34:17.789] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-01-06T21:34:17.791] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  }
+} in this build.
+[2025-01-06T21:34:17.797] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-01-06T21:34:17.808] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-01-06T21:34:17.830] [DEBUG] debug-file - Sdk init in 32 ms 
+[2025-01-06T21:34:17.851] [DEBUG] debug-file - Project task initialization takes 20 ms 
+[2025-01-06T21:34:17.851] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-01-06T21:34:17.851] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:34:17.851] [DEBUG] debug-file - hvigorfile, resolve finished F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:34:17.857] [DEBUG] debug-file - hvigorfile, resolving F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:34:17.861] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-01-06T21:34:17.861] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-01-06T21:34:17.868] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-01-06T21:34:17.868] [DEBUG] debug-file - Target 'default' config: {}
+[2025-01-06T21:34:17.868] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-01-06T21:34:17.868] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+}
+[2025-01-06T21:34:17.868] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+}
+[2025-01-06T21:34:17.868] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-01-06T21:34:17.869] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-01-06T21:34:17.871] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-01-06T21:34:17.871] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-01-06T21:34:17.871] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:34:17.871] [DEBUG] debug-file - hvigorfile, resolve finished F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:34:17.887] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 14 ms 
+[2025-01-06T21:34:17.887] [DEBUG] debug-file - project has submodules:entry
+[2025-01-06T21:34:17.889] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-01-06T21:34:17.896] [DEBUG] debug-file - load to the disk finished
+[2025-01-06T21:34:17.900] [DEBUG] debug-file - Module HarmonyOS Collected Dependency: 
+[2025-01-06T21:34:17.900] [DEBUG] debug-file - Module HarmonyOS's total dependency: 0
+[2025-01-06T21:34:17.903] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-01-06T21:34:17.903] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-01-06T21:34:17.906] [DEBUG] debug-file - Configuration phase cost:142 ms 
+[2025-01-06T21:34:17.908] [DEBUG] debug-file - Configuration task cost before running: 167 ms 
+[2025-01-06T21:34:17.910] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:17.910] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:17.913] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-01-06T21:34:17.917] [DEBUG] debug-file - entry:default@PreBuild is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\src\main\module.json5' has been changed.
+[2025-01-06T21:34:17.917] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 3 ms .
+[2025-01-06T21:34:18.052] [DEBUG] debug-file - current product is not Atomic service.
+[2025-01-06T21:34:18.052] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'D:\\DevEco Studio\\jbr' },
+  { CLASSPATH: '.;D:\\jdk8\\lib\\dt.jar;D:\\jdk8\\lib\\tools.jar' }
+]
+[2025-01-06T21:34:18.052] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'D:\\DevEco Studio\\tools\\node' } ]
+[2025-01-06T21:34:18.053] [DEBUG] debug-file - entry : default@PreBuild cost memory -0.4134063720703125
+[2025-01-06T21:34:18.053] [DEBUG] debug-file - runTaskFromQueue task cost before running: 312 ms 
+[2025-01-06T21:34:18.055] [INFO] debug-file - Finished :entry:default@PreBuild... after 141 ms 
+[2025-01-06T21:34:18.057] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.057] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.058] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-01-06T21:34:18.059] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 2 ms 
+[2025-01-06T21:34:18.060] [DEBUG] debug-file - entry:default@GenerateMetadata is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\src\main\module.json5' has been changed.
+[2025-01-06T21:34:18.060] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 1 ms .
+[2025-01-06T21:34:18.097] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.1397552490234375
+[2025-01-06T21:34:18.097] [DEBUG] debug-file - runTaskFromQueue task cost before running: 356 ms 
+[2025-01-06T21:34:18.097] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 40 ms 
+[2025-01-06T21:34:18.100] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.100] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.100] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-01-06T21:34:18.100] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.01318359375
+[2025-01-06T21:34:18.100] [DEBUG] debug-file - runTaskFromQueue task cost before running: 359 ms 
+[2025-01-06T21:34:18.100] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-01-06T21:34:18.102] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.103] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.103] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-01-06T21:34:18.105] [DEBUG] debug-file - entry:default@MergeProfile is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\src\main\module.json5' has been changed.
+[2025-01-06T21:34:18.105] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2025-01-06T21:34:18.105] [DEBUG] debug-file - Change app api release type with 'Release'
+[2025-01-06T21:34:18.105] [DEBUG] debug-file - Change app compile API version with '5.0.1.115'
+[2025-01-06T21:34:18.105] [DEBUG] debug-file - Change app target API version with '50001013'
+[2025-01-06T21:34:18.106] [DEBUG] debug-file - Change app minimum API version with '40000010'
+[2025-01-06T21:34:18.106] [DEBUG] debug-file - Use cli appEnvironment
+[2025-01-06T21:34:18.122] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.2877655029296875
+[2025-01-06T21:34:18.122] [DEBUG] debug-file - runTaskFromQueue task cost before running: 381 ms 
+[2025-01-06T21:34:18.122] [INFO] debug-file - Finished :entry:default@MergeProfile... after 19 ms 
+[2025-01-06T21:34:18.124] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.124] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.125] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-01-06T21:34:18.126] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:34:18.128] [DEBUG] debug-file - entry:default@CreateBuildProfile is not up-to-date, since the task snapshots are different.
+[2025-01-06T21:34:18.128] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 2 ms .
+[2025-01-06T21:34:18.129] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.15252685546875
+[2025-01-06T21:34:18.129] [DEBUG] debug-file - runTaskFromQueue task cost before running: 388 ms 
+[2025-01-06T21:34:18.129] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 4 ms 
+[2025-01-06T21:34:18.131] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.131] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.132] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-01-06T21:34:18.132] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01342010498046875
+[2025-01-06T21:34:18.132] [DEBUG] debug-file - runTaskFromQueue task cost before running: 391 ms 
+[2025-01-06T21:34:18.132] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-01-06T21:34:18.134] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.134] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.141] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-01-06T21:34:18.141] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:34:18.141] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.04337310791015625
+[2025-01-06T21:34:18.141] [DEBUG] debug-file - runTaskFromQueue task cost before running: 400 ms 
+[2025-01-06T21:34:18.141] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-01-06T21:34:18.143] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.143] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.145] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-01-06T21:34:18.147] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'F:\FileWharf\HarmonyOS\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2025-01-06T21:34:18.147] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 1 ms .
+[2025-01-06T21:34:18.147] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.0897674560546875
+[2025-01-06T21:34:18.147] [DEBUG] debug-file - runTaskFromQueue task cost before running: 406 ms 
+[2025-01-06T21:34:18.148] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 2 ms 
+[2025-01-06T21:34:18.150] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.150] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.150] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-01-06T21:34:18.150] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01412200927734375
+[2025-01-06T21:34:18.151] [DEBUG] debug-file - runTaskFromQueue task cost before running: 409 ms 
+[2025-01-06T21:34:18.151] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-01-06T21:34:18.153] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.153] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.154] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-01-06T21:34:18.156] [DEBUG] debug-file - entry:default@MakePackInfo is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\src\main\module.json5' has been changed.
+[2025-01-06T21:34:18.156] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 2 ms .
+[2025-01-06T21:34:18.157] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***2', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2025-01-06T21:34:18.158] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.19939422607421875
+[2025-01-06T21:34:18.158] [DEBUG] debug-file - runTaskFromQueue task cost before running: 417 ms 
+[2025-01-06T21:34:18.159] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 5 ms 
+[2025-01-06T21:34:18.161] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.161] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.163] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-01-06T21:34:18.164] [DEBUG] debug-file - entry:default@ProcessProfile is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\build\default\intermediates\merge_profile\default\module.json' has been changed.
+[2025-01-06T21:34:18.164] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-01-06T21:34:18.165] [DEBUG] debug-file - [
+  'D:\\DevEco Studio\\tools\\node\\node.exe',
+  'D:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '10'
+]
+[2025-01-06T21:34:18.264] [DEBUG] debug-file - 9.0.0.0
+[2025-01-06T21:34:18.266] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 1.9727401733398438
+[2025-01-06T21:34:18.266] [DEBUG] debug-file - runTaskFromQueue task cost before running: 525 ms 
+[2025-01-06T21:34:18.266] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 103 ms 
+[2025-01-06T21:34:18.269] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.269] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.270] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-01-06T21:34:18.270] [DEBUG] debug-file - File: 'F:\FileWharf\HarmonyOS\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-01-06T21:34:18.271] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:34:18.273] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'F:\FileWharf\HarmonyOS\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2025-01-06T21:34:18.273] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 2 ms .
+[2025-01-06T21:34:18.273] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.140655517578125
+[2025-01-06T21:34:18.273] [DEBUG] debug-file - runTaskFromQueue task cost before running: 532 ms 
+[2025-01-06T21:34:18.273] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 4 ms 
+[2025-01-06T21:34:18.276] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.276] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.278] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-01-06T21:34:18.281] [DEBUG] debug-file - entry:default@ProcessRouterMap is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\src\main\module.json5' has been changed.
+[2025-01-06T21:34:18.281] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 3 ms .
+[2025-01-06T21:34:18.296] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.15340423583984375
+[2025-01-06T21:34:18.296] [DEBUG] debug-file - runTaskFromQueue task cost before running: 555 ms 
+[2025-01-06T21:34:18.297] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 19 ms 
+[2025-01-06T21:34:18.299] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.299] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.301] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-01-06T21:34:18.302] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.033599853515625
+[2025-01-06T21:34:18.302] [DEBUG] debug-file - runTaskFromQueue task cost before running: 561 ms 
+[2025-01-06T21:34:18.302] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2025-01-06T21:34:18.305] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.305] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.306] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-01-06T21:34:18.310] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-01-06T21:34:18.311] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 2 ms .
+[2025-01-06T21:34:18.312] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.127105712890625
+[2025-01-06T21:34:18.315] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-01-06T21:34:18.317] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.317] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.321] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-01-06T21:34:18.341] [DEBUG] debug-file - entry:default@GenerateLoaderJson is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\build\default\intermediates\router_map\default\temp-router-map.json' has been changed.
+[2025-01-06T21:34:18.341] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 14 ms .
+[2025-01-06T21:34:18.347] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.60247802734375
+[2025-01-06T21:34:18.347] [DEBUG] debug-file - runTaskFromQueue task cost before running: 606 ms 
+[2025-01-06T21:34:18.351] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 26 ms 
+[2025-01-06T21:34:18.353] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.353] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.354] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-01-06T21:34:18.358] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 2 ms .
+[2025-01-06T21:34:18.358] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.1372833251953125
+[2025-01-06T21:34:18.359] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-01-06T21:34:18.361] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.361] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.362] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-01-06T21:34:18.364] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-01-06T21:34:18.375] [DEBUG] debug-file - entry:default@CompileResource is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\build\default\intermediates\process_profile\default\module.json' has been changed.
+[2025-01-06T21:34:18.375] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 10 ms .
+[2025-01-06T21:34:18.378] [DEBUG] debug-file - Use tool [D:\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'D:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2025-01-06T21:34:18.381] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 602320896,
+  heapTotal: 109207552,
+  heapUsed: 86759552,
+  external: 3165234,
+  arrayBuffers: 158989
+} os memoryUsage :19.751136779785156
+[2025-01-06T21:34:18.602] [DEBUG] debug-file - 01-06 21:34:18.602 48916 60100 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+01-06 21:34:18.602 48916 60100 E C01400/ImageTranscoderUtils: ImageFilter IN F:\FileWharf\HarmonyOS\AppScope\resources\base\media\app_icon.png
+
+[2025-01-06T21:34:18.603] [DEBUG] debug-file - 01-06 21:34:18.603 48916 60100 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2025-01-06T21:34:18.603] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = F:\FileWharf\HarmonyOS\AppScope\resources\base\media\app_icon.png
+
+[2025-01-06T21:34:18.604] [DEBUG] debug-file - 01-06 21:34:18.605 48916 60100 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2025-01-06T21:34:18.604] [DEBUG] debug-file - 01-06 21:34:18.605 48916 60100 E C01400/ImageTranscoderUtils: ImageFilter IN F:\FileWharf\HarmonyOS\entry\src\main\resources\base\media\background.png
+
+[2025-01-06T21:34:18.605] [DEBUG] debug-file - 01-06 21:34:18.606 48916 60100 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2025-01-06T21:34:18.605] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = F:\FileWharf\HarmonyOS\entry\src\main\resources\base\media\background.png
+
+[2025-01-06T21:34:18.606] [DEBUG] debug-file - 01-06 21:34:18.607 48916 60100 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+
+[2025-01-06T21:34:18.606] [DEBUG] debug-file - 01-06 21:34:18.607 48916 60100 E C01400/ImageTranscoderUtils: ImageFilter IN F:\FileWharf\HarmonyOS\entry\src\main\resources\base\media\foreground.png
+
+[2025-01-06T21:34:18.607] [DEBUG] debug-file - 01-06 21:34:18.608 48916 60100 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = F:\FileWharf\HarmonyOS\entry\src\main\resources\base\media\foreground.png
+
+[2025-01-06T21:34:18.608] [DEBUG] debug-file - Info: can't scale media json file.
+
+[2025-01-06T21:34:18.609] [DEBUG] debug-file - Warning: F:\FileWharf\HarmonyOS\entry\src\main\resources\base\media\layered_image.json is not png format
+
+[2025-01-06T21:34:18.610] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-01-06T21:34:18.677] [DEBUG] debug-file - astcenc customized so is not be opened when dlclose!
+
+[2025-01-06T21:34:18.681] [DEBUG] debug-file - entry : default@CompileResource cost memory 1.127716064453125
+[2025-01-06T21:34:18.681] [DEBUG] debug-file - runTaskFromQueue task cost before running: 940 ms 
+[2025-01-06T21:34:18.682] [INFO] debug-file - Finished :entry:default@CompileResource... after 318 ms 
+[2025-01-06T21:34:18.684] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.684] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.687] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-01-06T21:34:18.687] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:34:18.688] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-01-06T21:34:18.689] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.07573699951171875
+[2025-01-06T21:34:18.689] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-01-06T21:34:18.691] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.691] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.695] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-01-06T21:34:18.702] [DEBUG] debug-file - entry:default@CompileArkTS is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader\default' has been changed.
+[2025-01-06T21:34:18.702] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 5 ms .
+[2025-01-06T21:34:18.712] [DEBUG] debug-file - build config:
+[2025-01-06T21:34:18.712] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'F:\\FileWharf\\HarmonyOS\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: 'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'D:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'F:\\FileWharf\\HarmonyOS\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'F:\\FileWharf\\HarmonyOS',
+  compileSdkVersion: 13,
+  compatibleSdkVersion: 10,
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***2',
+  etsLoaderVersion: '5.0.1.115',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'F:\\FileWharf\\HarmonyOS\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '5b2c96dfbe9edfbbb005178720013dda',
+  externalApiPaths: [ 'D:\\DevEco Studio\\sdk\\default\\hms\\ets' ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 13,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: { caseSensitiveCheck: true },
+  buildDir: 'F:\\FileWharf\\HarmonyOS\\entry\\build',
+  deviceTypes: [ 'phone', 'tablet', '2in1' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: {
+    requestPermissions: [ [Object], [Object] ],
+    definePermissions: undefined
+  },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ 'F:\\FileWharf\\HarmonyOS' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  aceModuleJsonPath: 'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\module.json',
+  appResource: 'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: 'a8da146957b6ea83965baeccb207e7c8',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:13:5.0.1.115:Release',
+  aceModuleRoot: 'F:\\FileWharf\\HarmonyOS\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'F:\\FileWharf\\HarmonyOS\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'F:\\FileWharf\\HarmonyOS\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'F:\\FileWharf\\HarmonyOS\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'F:\\FileWharf\\HarmonyOS\\entry',
+      belongProjectPath: 'F:\\FileWharf\\HarmonyOS'
+    },
+    'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\src\\ohosTest\\ets': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'F:\\FileWharf\\HarmonyOS\\entry',
+      belongProjectPath: 'F:\\FileWharf\\HarmonyOS'
+    },
+    'F:\\FileWharf\\HarmonyOS\\entry\\src\\ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: 'F:\\FileWharf\\HarmonyOS\\entry',
+      belongProjectPath: 'F:\\FileWharf\\HarmonyOS'
+    },
+    'F:\\FileWharf\\HarmonyOS\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'F:\\FileWharf\\HarmonyOS\\entry',
+      belongProjectPath: 'F:\\FileWharf\\HarmonyOS'
+    },
+    'F:\\FileWharf\\HarmonyOS': {
+      moduleName: 'HarmonyOS',
+      modulePkgPath: 'F:\\FileWharf\\HarmonyOS',
+      belongProjectPath: 'F:\\FileWharf\\HarmonyOS'
+    }
+  },
+  pkgJsonFileHash: '693de8934d9b8d30ada044cc6ad80336',
+  allModulePaths: [
+    'F:\\FileWharf\\HarmonyOS\\entry',
+    'F:\\FileWharf\\HarmonyOS\\entry',
+    'F:\\FileWharf\\HarmonyOS\\entry'
+  ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-01-06T21:34:18.712] [DEBUG] debug-file - Compile arkts with external api path: D:\DevEco Studio\sdk\default\hms\ets
+[2025-01-06T21:34:18.713] [DEBUG] debug-file - default@CompileArkTS work[0] is submitted.
+[2025-01-06T21:34:18.714] [DEBUG] debug-file - default@CompileArkTS work[0] is pushed to ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.715] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2025-01-06T21:34:18.717] [DEBUG] debug-file - default@CompileArkTS work[0] has been dispatched to worker[4].
+[2025-01-06T21:34:18.717] [DEBUG] debug-file - default@CompileArkTS work[0] is dispatched.
+[2025-01-06T21:34:18.717] [DEBUG] debug-file - CopyResources startTime: 376025167903900
+[2025-01-06T21:34:18.717] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2025-01-06T21:34:18.718] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2025-01-06T21:34:18.718] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-01-06T21:34:18.718] [DEBUG] debug-file - Create  resident worker with id: 18.
+[2025-01-06T21:34:18.718] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[18].
+[2025-01-06T21:34:18.719] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
+[2025-01-06T21:34:18.719] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.4292221069335938
+[2025-01-06T21:34:18.721] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.721] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.724] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-01-06T21:34:18.729] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.11328887939453125
+[2025-01-06T21:34:18.729] [DEBUG] debug-file - runTaskFromQueue task cost before running: 988 ms 
+[2025-01-06T21:34:18.729] [INFO] debug-file - Finished :entry:default@BuildJS... after 5 ms 
+[2025-01-06T21:34:18.732] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:18.732] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:18.738] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-01-06T21:34:18.739] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:34:18.742] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 3 ms .
+[2025-01-06T21:34:18.742] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.0905914306640625
+[2025-01-06T21:34:18.743] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-01-06T21:34:19.735] [DEBUG] debug-file - worker[18] has one work done.
+[2025-01-06T21:34:19.735] [DEBUG] debug-file - CopyResources is end, endTime: 376026185906300
+[2025-01-06T21:34:19.735] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2025-01-06T21:34:19.735] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-01-06T21:34:26.906] [DEBUG] debug-file - worker[4] has one work done.
+[2025-01-06T21:34:26.907] [DEBUG] debug-file - Ark compile task finished.finished time is 376033357245800
+[2025-01-06T21:34:26.914] [DEBUG] debug-file - default@CompileArkTS work[0] done.
+[2025-01-06T21:34:26.914] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-01-06T21:34:26.916] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 5 s 953 ms 
+[2025-01-06T21:34:26.918] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:26.918] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:26.919] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-01-06T21:34:26.920] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:34:26.920] [DEBUG] debug-file - entry:default@GeneratePkgModuleJson is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\module.json' has been changed.
+[2025-01-06T21:34:26.920] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 1 ms .
+[2025-01-06T21:34:26.922] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.09197235107421875
+[2025-01-06T21:34:26.922] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 181 ms 
+[2025-01-06T21:34:26.922] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 3 ms 
+[2025-01-06T21:34:26.925] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:26.925] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:26.932] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-01-06T21:34:26.938] [DEBUG] debug-file - entry:default@PackageHap is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\module.json' has been changed.
+[2025-01-06T21:34:26.938] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 4 ms .
+[2025-01-06T21:34:26.940] [DEBUG] debug-file - Use tool [D:\DevEco Studio\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'D:\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'F:\\FileWharf\\HarmonyOS\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2025-01-06T21:34:26.942] [DEBUG] debug-file - default@PackageHap work[2] is submitted.
+[2025-01-06T21:34:26.943] [DEBUG] debug-file - default@PackageHap work[2] is pushed to ready queue.
+[2025-01-06T21:34:26.943] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2025-01-06T21:34:26.943] [DEBUG] debug-file - default@PackageHap work[2] has been dispatched to worker[18].
+[2025-01-06T21:34:26.943] [DEBUG] debug-file - default@PackageHap work[2] is dispatched.
+[2025-01-06T21:34:26.945] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.67816162109375
+[2025-01-06T21:34:27.042] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 1065222144,
+  heapTotal: 74702848,
+  heapUsed: 50395520,
+  external: 2617380,
+  arrayBuffers: 565078
+} os memoryUsage :20.196868896484375
+[2025-01-06T21:34:27.435] [DEBUG] debug-file - worker[18] has one work done.
+[2025-01-06T21:34:27.435] [DEBUG] debug-file - default@PackageHap work[2] done.
+[2025-01-06T21:34:27.435] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2025-01-06T21:34:27.437] [INFO] debug-file - Finished :entry:default@PackageHap... after 410 ms 
+[2025-01-06T21:34:27.439] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:34:27.440] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:34:27.442] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-01-06T21:34:27.443] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in F:\FileWharf\HarmonyOS\build-profile.json5.
+[2025-01-06T21:34:27.444] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the input file 'F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\entry-default-unsigned.hap' has been changed.
+[2025-01-06T21:34:27.444] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2025-01-06T21:34:27.445] [DEBUG] debug-file - entry : default@SignHap cost memory 0.10140228271484375
+[2025-01-06T21:34:27.445] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 704 ms 
+[2025-01-06T21:34:27.445] [INFO] debug-file - Finished :entry:default@SignHap... after 3 ms 
+[2025-01-06T21:34:27.447] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-01-06T21:34:27.447] [DEBUG] debug-file - entry : assembleHap cost memory 0.011749267578125
+[2025-01-06T21:34:27.447] [DEBUG] debug-file - runTaskFromQueue task cost before running: 9 s 706 ms 
+[2025-01-06T21:34:27.447] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-01-06T21:34:27.465] [DEBUG] debug-file - BUILD SUCCESSFUL in 9 s 724 ms 
+[2025-01-06T21:34:27.466] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\FileWharf\HarmonyOS\AppScope\app.json5 cache by regenerate.
+[2025-01-06T21:34:27.466] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\FileWharf\HarmonyOS\entry\src\main\module.json5 cache from map.
+[2025-01-06T21:34:27.466] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\FileWharf\HarmonyOS\build-profile.json5 cache by regenerate.
+[2025-01-06T21:34:27.467] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\FileWharf\HarmonyOS\entry\build-profile.json5 cache by regenerate.
+[2025-01-06T21:34:27.467] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\FileWharf\HarmonyOS\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2025-01-06T21:34:27.467] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\FileWharf\HarmonyOS\hvigor\hvigor-config.json5 cache by regenerate.
+[2025-01-06T21:34:27.467] [DEBUG] debug-file - Update task entry:default@PreBuild input file:F:\FileWharf\HarmonyOS\entry\oh-package.json5 cache by regenerate.
+[2025-01-06T21:34:27.468] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:3 ms .
+[2025-01-06T21:34:27.468] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:F:\FileWharf\HarmonyOS\entry\src\main\module.json5 cache from map.
+[2025-01-06T21:34:27.468] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2025-01-06T21:34:27.468] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2025-01-06T21:34:27.468] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:F:\FileWharf\HarmonyOS\AppScope\app.json5 cache by regenerate.
+[2025-01-06T21:34:27.469] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:F:\FileWharf\HarmonyOS\build-profile.json5 cache by regenerate.
+[2025-01-06T21:34:27.469] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:F:\FileWharf\HarmonyOS\entry\src\main\module.json5 cache from map.
+[2025-01-06T21:34:27.469] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2025-01-06T21:34:27.469] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:2 ms .
+[2025-01-06T21:34:27.469] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:F:\FileWharf\HarmonyOS\AppScope\app.json5 cache by regenerate.
+[2025-01-06T21:34:27.470] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:F:\FileWharf\HarmonyOS\build-profile.json5 cache by regenerate.
+[2025-01-06T21:34:27.470] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:F:\FileWharf\HarmonyOS\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2025-01-06T21:34:27.470] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
+[2025-01-06T21:34:27.470] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-01-06T21:34:27.471] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-01-06T21:34:27.471] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:F:\FileWharf\HarmonyOS\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2025-01-06T21:34:27.472] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-01-06T21:34:27.472] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:F:\FileWharf\HarmonyOS\AppScope\app.json5 cache by regenerate.
+[2025-01-06T21:34:27.472] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:F:\FileWharf\HarmonyOS\entry\src\main\module.json5 cache from map.
+[2025-01-06T21:34:27.472] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:F:\FileWharf\HarmonyOS\build-profile.json5 cache by regenerate.
+[2025-01-06T21:34:27.472] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:F:\FileWharf\HarmonyOS\entry\src\main\resources\base\profile\backup_config.json cache by regenerate.
+[2025-01-06T21:34:27.473] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\pack.info cache.
+[2025-01-06T21:34:27.474] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:2 ms .
+[2025-01-06T21:34:27.474] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\merge_profile\default\module.json cache from map.
+[2025-01-06T21:34:27.474] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2025-01-06T21:34:27.474] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2025-01-06T21:34:27.474] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2025-01-06T21:34:27.474] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2025-01-06T21:34:27.475] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2025-01-06T21:34:27.476] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2025-01-06T21:34:27.477] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:F:\FileWharf\HarmonyOS\entry\oh-package.json5 cache by regenerate.
+[2025-01-06T21:34:27.477] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:F:\FileWharf\HarmonyOS\oh-package.json5 cache by regenerate.
+[2025-01-06T21:34:27.477] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:F:\FileWharf\HarmonyOS\entry\src\main\module.json5 cache from map.
+[2025-01-06T21:34:27.477] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2025-01-06T21:34:27.478] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2025-01-06T21:34:27.478] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:3 ms .
+[2025-01-06T21:34:27.478] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-01-06T21:34:27.481] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\router_map\default\temp-router-map.json cache from map.
+[2025-01-06T21:34:27.481] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader\default\loader.json cache.
+[2025-01-06T21:34:27.481] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:3 ms .
+[2025-01-06T21:34:27.481] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-01-06T21:34:27.482] [DEBUG] debug-file - Update task entry:default@CompileResource input file:F:\FileWharf\HarmonyOS\entry\src\main\resources cache by regenerate.
+[2025-01-06T21:34:27.488] [DEBUG] debug-file - Update task entry:default@CompileResource input file:F:\FileWharf\HarmonyOS\AppScope\resources cache by regenerate.
+[2025-01-06T21:34:27.490] [DEBUG] debug-file - Update task entry:default@CompileResource input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\process_profile\default\module.json cache from map.
+[2025-01-06T21:34:27.490] [DEBUG] debug-file - Update task entry:default@CompileResource input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2025-01-06T21:34:27.490] [DEBUG] debug-file - Update task entry:default@CompileResource output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default cache.
+[2025-01-06T21:34:27.496] [DEBUG] debug-file - Update task entry:default@CompileResource output file:F:\FileWharf\HarmonyOS\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2025-01-06T21:34:27.496] [DEBUG] debug-file - Update task entry:default@CompileResource output file:F:\FileWharf\HarmonyOS\entry\build\default\generated\r\default cache.
+[2025-01-06T21:34:27.497] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:16 ms .
+[2025-01-06T21:34:27.497] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-01-06T21:34:27.500] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader\default cache from map.
+[2025-01-06T21:34:27.500] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-01-06T21:34:27.500] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-01-06T21:34:27.501] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-01-06T21:34:27.501] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:F:\FileWharf\HarmonyOS\entry\src\main\ets cache by regenerate.
+[2025-01-06T21:34:27.507] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:F:\FileWharf\HarmonyOS\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-01-06T21:34:27.507] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader_out\default\ets cache.
+[2025-01-06T21:34:27.508] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:11 ms .
+[2025-01-06T21:34:27.510] [DEBUG] debug-file - Update task entry:default@BuildJS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-01-06T21:34:27.510] [DEBUG] debug-file - Update task entry:default@BuildJS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-01-06T21:34:27.511] [DEBUG] debug-file - Update task entry:default@BuildJS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-01-06T21:34:27.511] [DEBUG] debug-file - Update task entry:default@BuildJS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-01-06T21:34:27.512] [DEBUG] debug-file - Update task entry:default@BuildJS output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader_out\default\js cache.
+[2025-01-06T21:34:27.512] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:5 ms .
+[2025-01-06T21:34:27.512] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-01-06T21:34:27.512] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\module.json cache from map.
+[2025-01-06T21:34:27.512] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\package\default\module.json cache.
+[2025-01-06T21:34:27.513] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-01-06T21:34:27.514] [DEBUG] debug-file - Update task entry:default@PackageHap input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2025-01-06T21:34:27.514] [DEBUG] debug-file - Update task entry:default@PackageHap input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\module.json cache from map.
+[2025-01-06T21:34:27.514] [DEBUG] debug-file - Update task entry:default@PackageHap input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2025-01-06T21:34:27.518] [DEBUG] debug-file - Update task entry:default@PackageHap input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2025-01-06T21:34:27.518] [DEBUG] debug-file - Update task entry:default@PackageHap input file:F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2025-01-06T21:34:27.518] [DEBUG] debug-file - Update task entry:default@PackageHap input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2025-01-06T21:34:27.519] [DEBUG] debug-file - Update task entry:default@PackageHap input file:F:\FileWharf\HarmonyOS\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-01-06T21:34:27.520] [DEBUG] debug-file - Update task entry:default@PackageHap output file:F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2025-01-06T21:34:27.520] [DEBUG] debug-file - Update task entry:default@PackageHap output file:F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2025-01-06T21:34:27.521] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:8 ms .
+[2025-01-06T21:34:27.521] [DEBUG] debug-file - Update task entry:default@SignHap input file:F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\entry-default-unsigned.hap cache from map.
+[2025-01-06T21:34:27.521] [DEBUG] debug-file - Update task entry:default@SignHap output file:F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2025-01-06T21:34:27.521] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-01-06T21:34:27.547] [DEBUG] debug-file - Cleanup worker 18.
+[2025-01-06T21:34:27.547] [DEBUG] debug-file - Worker 18 has been cleaned up.
+[2025-01-06T21:34:27.547] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-01-06T21:34:27.547] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-01-06T21:34:27.548] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-01-06T21:34:27.555] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-01-06T21:34:27.556] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-01-06T21:34:27.555] [DEBUG] debug-file - worker[18] exits with exit code 1.
+[2025-01-06T21:34:27.556] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:34:27.556] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:35:50.110] [DEBUG] debug-file - session manager: set active socket. socketId=VPQaZUChn0SKza7tAAAH
+[2025-01-06T21:35:50.116] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:35:50.137] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-01-06T21:35:50.142] [DEBUG] debug-file - Cache service initialization finished in 5 ms 
+[2025-01-06T21:35:50.156] [DEBUG] debug-file - hvigorfile, resolving F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:35:50.162] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-01-06T21:35:50.162] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-01-06T21:35:50.169] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-01-06T21:35:50.170] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-01-06T21:35:50.170] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-01-06T21:35:50.170] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-01-06T21:35:50.172] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  }
+} in this build.
+[2025-01-06T21:35:50.176] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-01-06T21:35:50.187] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-01-06T21:35:50.211] [DEBUG] debug-file - Sdk init in 34 ms 
+[2025-01-06T21:35:50.240] [DEBUG] debug-file - Project task initialization takes 27 ms 
+[2025-01-06T21:35:50.240] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-01-06T21:35:50.240] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:35:50.240] [DEBUG] debug-file - hvigorfile, resolve finished F:\FileWharf\HarmonyOS\hvigorfile.ts
+[2025-01-06T21:35:50.251] [DEBUG] debug-file - hvigorfile, resolving F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:35:50.257] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-01-06T21:35:50.257] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-01-06T21:35:50.266] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-01-06T21:35:50.266] [DEBUG] debug-file - Target 'default' config: {}
+[2025-01-06T21:35:50.266] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-01-06T21:35:50.267] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+}
+[2025-01-06T21:35:50.267] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+}
+[2025-01-06T21:35:50.267] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-01-06T21:35:50.267] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-01-06T21:35:50.271] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-01-06T21:35:50.271] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-01-06T21:35:50.271] [DEBUG] debug-file - hvigorfile, no custom plugins were found in F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:35:50.271] [DEBUG] debug-file - hvigorfile, resolve finished F:\FileWharf\HarmonyOS\entry\hvigorfile.ts
+[2025-01-06T21:35:50.293] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 20 ms 
+[2025-01-06T21:35:50.294] [DEBUG] debug-file - project has submodules:entry
+[2025-01-06T21:35:50.296] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-01-06T21:35:50.314] [DEBUG] debug-file - load to the disk finished
+[2025-01-06T21:35:50.319] [DEBUG] debug-file - Module HarmonyOS Collected Dependency: 
+[2025-01-06T21:35:50.319] [DEBUG] debug-file - Module HarmonyOS's total dependency: 0
+[2025-01-06T21:35:50.321] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-01-06T21:35:50.321] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-01-06T21:35:50.325] [DEBUG] debug-file - Configuration phase cost:177 ms 
+[2025-01-06T21:35:50.327] [DEBUG] debug-file - Configuration task cost before running: 205 ms 
+[2025-01-06T21:35:50.329] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.329] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.332] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-01-06T21:35:50.340] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 6 ms .
+[2025-01-06T21:35:50.340] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.2404632568359375
+[2025-01-06T21:35:50.342] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-01-06T21:35:50.345] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.345] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.346] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-01-06T21:35:50.347] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:35:50.348] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 1 ms .
+[2025-01-06T21:35:50.348] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.093841552734375
+[2025-01-06T21:35:50.348] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2025-01-06T21:35:50.351] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.351] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.351] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-01-06T21:35:50.351] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.0129547119140625
+[2025-01-06T21:35:50.351] [DEBUG] debug-file - runTaskFromQueue task cost before running: 229 ms 
+[2025-01-06T21:35:50.351] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-01-06T21:35:50.354] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.354] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.355] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-01-06T21:35:50.357] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2025-01-06T21:35:50.357] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.10877227783203125
+[2025-01-06T21:35:50.357] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-01-06T21:35:50.360] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.360] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.362] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-01-06T21:35:50.363] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 2 ms 
+[2025-01-06T21:35:50.365] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 2 ms .
+[2025-01-06T21:35:50.365] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.10231781005859375
+[2025-01-06T21:35:50.365] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-01-06T21:35:50.367] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.367] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.368] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-01-06T21:35:50.368] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01319122314453125
+[2025-01-06T21:35:50.369] [DEBUG] debug-file - runTaskFromQueue task cost before running: 247 ms 
+[2025-01-06T21:35:50.369] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-01-06T21:35:50.371] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.371] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.376] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-01-06T21:35:50.377] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:35:50.377] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.037628173828125
+[2025-01-06T21:35:50.377] [DEBUG] debug-file - runTaskFromQueue task cost before running: 255 ms 
+[2025-01-06T21:35:50.377] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-01-06T21:35:50.380] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.380] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.383] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-01-06T21:35:50.384] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file 'F:\FileWharf\HarmonyOS\build\cache\default\integrated_hsp\integratedHspCache.json' does not exist.
+[2025-01-06T21:35:50.385] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 2 ms .
+[2025-01-06T21:35:50.385] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.08762359619140625
+[2025-01-06T21:35:50.385] [DEBUG] debug-file - runTaskFromQueue task cost before running: 263 ms 
+[2025-01-06T21:35:50.386] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 3 ms 
+[2025-01-06T21:35:50.389] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.389] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.390] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-01-06T21:35:50.390] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01401519775390625
+[2025-01-06T21:35:50.390] [DEBUG] debug-file - runTaskFromQueue task cost before running: 268 ms 
+[2025-01-06T21:35:50.390] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-01-06T21:35:50.393] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.393] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.394] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-01-06T21:35:50.399] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 4 ms .
+[2025-01-06T21:35:50.399] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.15148162841796875
+[2025-01-06T21:35:50.400] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2025-01-06T21:35:50.402] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.403] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.404] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-01-06T21:35:50.405] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-01-06T21:35:50.406] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.060546875
+[2025-01-06T21:35:50.406] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-01-06T21:35:50.408] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.408] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.410] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-01-06T21:35:50.410] [DEBUG] debug-file - File: 'F:\FileWharf\HarmonyOS\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2025-01-06T21:35:50.411] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:35:50.416] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file 'F:\FileWharf\HarmonyOS\entry\build\default\intermediates\syscap\default\rpcid.sc' does not exist.
+[2025-01-06T21:35:50.417] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 5 ms .
+[2025-01-06T21:35:50.417] [DEBUG] debug-file - entry : default@SyscapTransform cost memory -0.6893539428710938
+[2025-01-06T21:35:50.417] [DEBUG] debug-file - runTaskFromQueue task cost before running: 295 ms 
+[2025-01-06T21:35:50.417] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 7 ms 
+[2025-01-06T21:35:50.421] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.422] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.424] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-01-06T21:35:50.429] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 4 ms .
+[2025-01-06T21:35:50.429] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.14791107177734375
+[2025-01-06T21:35:50.430] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-01-06T21:35:50.433] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.433] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.433] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-01-06T21:35:50.434] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.03045654296875
+[2025-01-06T21:35:50.435] [DEBUG] debug-file - runTaskFromQueue task cost before running: 313 ms 
+[2025-01-06T21:35:50.435] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2025-01-06T21:35:50.438] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.438] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.439] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-01-06T21:35:50.442] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-01-06T21:35:50.444] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2025-01-06T21:35:50.444] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.11324310302734375
+[2025-01-06T21:35:50.448] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-01-06T21:35:50.450] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.450] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.455] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-01-06T21:35:50.469] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 10 ms .
+[2025-01-06T21:35:50.469] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory -0.45566558837890625
+[2025-01-06T21:35:50.474] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-01-06T21:35:50.476] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.476] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.477] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-01-06T21:35:50.481] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 2 ms .
+[2025-01-06T21:35:50.481] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.12158203125
+[2025-01-06T21:35:50.482] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-01-06T21:35:50.483] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.484] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.484] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-01-06T21:35:50.488] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-01-06T21:35:50.506] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 18 ms .
+[2025-01-06T21:35:50.506] [DEBUG] debug-file - entry : default@CompileResource cost memory 0.8640365600585938
+[2025-01-06T21:35:50.508] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2025-01-06T21:35:50.510] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.510] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.513] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-01-06T21:35:50.514] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:35:50.515] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-01-06T21:35:50.515] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.075775146484375
+[2025-01-06T21:35:50.515] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-01-06T21:35:50.517] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.517] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.521] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-01-06T21:35:50.537] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 13 ms .
+[2025-01-06T21:35:50.537] [DEBUG] debug-file - entry : default@CompileArkTS cost memory -0.36882781982421875
+[2025-01-06T21:35:50.539] [INFO] debug-file - UP-TO-DATE :entry:default@CompileArkTS...  
+[2025-01-06T21:35:50.541] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.541] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.545] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-01-06T21:35:50.548] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.1115875244140625
+[2025-01-06T21:35:50.549] [DEBUG] debug-file - runTaskFromQueue task cost before running: 427 ms 
+[2025-01-06T21:35:50.549] [INFO] debug-file - Finished :entry:default@BuildJS... after 4 ms 
+[2025-01-06T21:35:50.551] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.551] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.554] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-01-06T21:35:50.554] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:35:50.556] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 2 ms .
+[2025-01-06T21:35:50.556] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.0904998779296875
+[2025-01-06T21:35:50.556] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-01-06T21:35:50.558] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.558] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.560] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-01-06T21:35:50.560] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 1 ms 
+[2025-01-06T21:35:50.561] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 2 ms .
+[2025-01-06T21:35:50.561] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.0734100341796875
+[2025-01-06T21:35:50.561] [INFO] debug-file - UP-TO-DATE :entry:default@GeneratePkgModuleJson...  
+[2025-01-06T21:35:50.564] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.564] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.572] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-01-06T21:35:50.585] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 12 ms .
+[2025-01-06T21:35:50.585] [DEBUG] debug-file - entry : default@PackageHap cost memory 0.46527862548828125
+[2025-01-06T21:35:50.587] [INFO] debug-file - UP-TO-DATE :entry:default@PackageHap...  
+[2025-01-06T21:35:50.589] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-01-06T21:35:50.589] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-01-06T21:35:50.592] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-01-06T21:35:50.593] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in F:\FileWharf\HarmonyOS\build-profile.json5.
+[2025-01-06T21:35:50.594] [DEBUG] debug-file - entry:default@SignHap is not up-to-date, since the output file 'F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\entry-default-signed.hap' does not exist.
+[2025-01-06T21:35:50.594] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2025-01-06T21:35:50.594] [DEBUG] debug-file - entry : default@SignHap cost memory 0.0932464599609375
+[2025-01-06T21:35:50.594] [DEBUG] debug-file - runTaskFromQueue task cost before running: 473 ms 
+[2025-01-06T21:35:50.595] [INFO] debug-file - Finished :entry:default@SignHap... after 2 ms 
+[2025-01-06T21:35:50.597] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-01-06T21:35:50.597] [DEBUG] debug-file - entry : assembleHap cost memory 0.011749267578125
+[2025-01-06T21:35:50.597] [DEBUG] debug-file - runTaskFromQueue task cost before running: 475 ms 
+[2025-01-06T21:35:50.597] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-01-06T21:35:50.613] [DEBUG] debug-file - BUILD SUCCESSFUL in 491 ms 
+[2025-01-06T21:35:50.613] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-01-06T21:35:50.613] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2025-01-06T21:35:50.613] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-01-06T21:35:50.613] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-01-06T21:35:50.613] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-01-06T21:35:50.614] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-01-06T21:35:50.614] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:F:\FileWharf\HarmonyOS\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2025-01-06T21:35:50.615] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-01-06T21:35:50.615] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2025-01-06T21:35:50.615] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-01-06T21:35:50.615] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco Studio\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2025-01-06T21:35:50.615] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:D:\DevEco Studio\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:2 ms .
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-01-06T21:35:50.616] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileArkTS is up-to-date.
+[2025-01-06T21:35:50.618] [DEBUG] debug-file - Update task entry:default@BuildJS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader\default cache by regenerate.
+[2025-01-06T21:35:50.619] [DEBUG] debug-file - Update task entry:default@BuildJS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-01-06T21:35:50.620] [DEBUG] debug-file - Update task entry:default@BuildJS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2025-01-06T21:35:50.620] [DEBUG] debug-file - Update task entry:default@BuildJS input file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-01-06T21:35:50.621] [DEBUG] debug-file - Update task entry:default@BuildJS output file:F:\FileWharf\HarmonyOS\entry\build\default\intermediates\loader_out\default\js cache.
+[2025-01-06T21:35:50.621] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:5 ms .
+[2025-01-06T21:35:50.621] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-01-06T21:35:50.621] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgModuleJson is up-to-date.
+[2025-01-06T21:35:50.621] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PackageHap is up-to-date.
+[2025-01-06T21:35:50.622] [DEBUG] debug-file - Update task entry:default@SignHap input file:F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2025-01-06T21:35:50.622] [DEBUG] debug-file - Update task entry:default@SignHap output file:F:\FileWharf\HarmonyOS\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2025-01-06T21:35:50.622] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:1 ms .
+[2025-01-06T21:35:50.650] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-01-06T21:35:50.656] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-01-06T21:35:50.657] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-01-06T21:35:50.657] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:35:50.657] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-01-06T21:37:46.094] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-01-06T21:37:46.105] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-01-06T21:37:46.115] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-01-06T21:37:46.115] [DEBUG] debug-file - Server currently has 0 watch-worker
