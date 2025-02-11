@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/davonli/.ohos/config/default_HarmonyOS4_REAL_-Ktbl-83NId_--ILrmkN0nwBK5glo3EM_WlBEkZ8lsk=.cer",
+          "storePassword": "0000001BD47C95E62AAD59C576B8F27190D1607CC340D7AC749EDA18D6C2443A36F224A2B6F0C698B88905",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B36F5E591EDF4B59D120FE0CEBD7E0FB8CA54F3D19933C04F50F06096206789A058D40C4FC3F77C",
+          "profile": "/Users/davonli/.ohos/config/default_HarmonyOS4_REAL_-Ktbl-83NId_--ILrmkN0nwBK5glo3EM_WlBEkZ8lsk=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/davonli/.ohos/config/default_HarmonyOS4_REAL_-Ktbl-83NId_--ILrmkN0nwBK5glo3EM_WlBEkZ8lsk=.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
