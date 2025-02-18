@@ -18,7 +18,7 @@ class HttpTool {
   sendPOST(data: string): Promise<string> {
     let rs: string = 'none';
     return new Promise((resolve, reject) => {
-      this.httpRequest.request('http://127.0.0.1:10001/post', {
+      this.httpRequest.request('http://192.168.137.83:10001/post', {
         method: http.RequestMethod.POST,
         header: { 'Content-Type': 'application/json' },
         extraData: JSON.stringify(data),
@@ -40,7 +40,7 @@ class HttpTool {
   sendGET(query: string): Promise<string> {
     let rs: string = 'none';
     return new Promise((resolve, reject) => {
-      this.httpRequest.request('http://127.0.0.1:10001/get?query=' + query, {
+      this.httpRequest.request('http://192.168.137.83:10001/get?query=' + query, {
         method: http.RequestMethod.GET,
         header: { 'Content-Type': 'application/json' },
         connectTimeout: 60000,

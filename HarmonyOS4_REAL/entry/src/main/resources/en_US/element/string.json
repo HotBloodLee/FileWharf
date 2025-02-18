@@ -6,11 +6,11 @@
     },
     {
       "name": "EntryAbility_desc",
-      "value": "description"
+      "value": "FileWharf应用致力于帮助用户管理文件，提供文件分类、搜索等功能。"
     },
     {
       "name": "EntryAbility_label",
-      "value": "label"
+      "value": "FileWharf"
     }
   ]
 }
